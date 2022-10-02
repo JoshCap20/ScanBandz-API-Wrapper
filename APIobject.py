@@ -16,8 +16,15 @@ class API(Abstract_API):
         response = requests.get(self.endpoints['verify_endpoint'], headers=self.HEADERS)
         if self.check_valid_response(response):
             print("Valid API Key")
+            self.authenticated = True
             return True
         return False
+    
+    def check_authenticated(self):
+        """
+        Test if key has been verified.
+        """
+        return self.authenticated
 
     def get_account(self):
         """
