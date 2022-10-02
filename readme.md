@@ -15,4 +15,4 @@
 
 Configure API_KEY in settings.py.
 
-[View Full API Documentation] (https://scanbandz.com/api/v1/documentation)
+[View Full API Documentation](https://scanbandz.com/api/v1/documentation).
