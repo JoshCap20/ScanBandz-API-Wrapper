@@ -1,4 +1,6 @@
-# ScanBandz API Python Wrapper
+# ScanBandz v1 API Python Wrapper
+
+This no longer works with recent upgrades API v2. A new wrapper will be released later.
 
 ## Wrapper Public Methods
 1. `key_test()` Tests if API-KEY is valid.
